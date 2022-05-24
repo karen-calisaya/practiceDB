@@ -1,0 +1,28 @@
+practica.db
+
+tablas:
+-usuarios
+	id (int)
+	nombre (varchar)
+	apellido (varchar)
+	email 
+	nota_id
+
+-notas
+	id (int)
+	titulo varchar(100)
+	fecha de creacion(date)
+	fecha de modificacion(date)
+	descripcion(la nota en si)
+	para eliminar: true, false
+-nota_categoria
+	id
+	categoria_id
+	nota_id
+-categoria
+	id(int)
+	musica
+	recordatorios
+	apuntesImportantes
+	nota_id
+	
