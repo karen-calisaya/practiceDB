@@ -15,14 +15,16 @@ tablas:
 	fecha de modificacion(date)
 	descripcion(la nota en si)
 	para eliminar: true, false
+
 -nota_categoria
 	id
 	categoria_id
 	nota_id
+	
 -categoria
 	id(int)
 	musica
 	recordatorios
 	apuntesImportantes
-	nota_id
+	
 	
